@@ -1,3 +1,5 @@
+* coq of ocaml of mldoc
+find -name \*.ml -exec coq-of-ocaml {} \;
 * mldoc_org
   Another Org-mode parser implemented using OCaml and [[https://github.com/inhabitedtype/angstrom][Angstrom]].
   It's based on [[http://iso.mor.phis.me/projects/mlorg/][mlorg]] which is a high quality Org-mode parser written by [[https://github.com/asmanur?tab=repositories][Simon Castellan]].
